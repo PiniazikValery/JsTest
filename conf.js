@@ -21,6 +21,5 @@ exports.config = {
       docName:'KinopoiskReport.html'
    }).getJasmine2Reporter());
   }
-
   };
   
