@@ -5,7 +5,7 @@ class KinopoiskStartPage {
         console.log('Open Kinopoisk site');
         browser.get(browser.baseUrl);
         this.SearchLine = element(by.name("kp_query"));
-        this.SearchButton = element(by.xpath("//*[@value='искать!']"));
+        this.SearchButton = element(by.css(".header-fresh-search-partial-component__button"));
     }
 
     SendDefultKeysToSearchLine() {         
