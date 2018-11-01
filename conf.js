@@ -1,7 +1,7 @@
 var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
 
-  seleniumServerJar: './node_modules/protractor/selenium/selenium-server-standalone-3.9.1.jar',
+  seleniumServerJar: './node_modules/webdriver-manager/selenium/selenium-server-standalone-3.141.0.jar',
 
   specs: [
   'TestCases/TC1 - SmokeTestCite.js'
